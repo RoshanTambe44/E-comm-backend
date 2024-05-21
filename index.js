@@ -12,7 +12,7 @@ Db()
 
 //this line of code for cross connection---------when browser throw cors error for routing may be 
 app.use((req, res, next)=>{
-        res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+        res.setHeader('Access-Control-Allow-Origin', 'https://roshanecomm.netlify.app/');
         res.header('Access-Control-Allow-Headers', "Origin, X-Requisted-With, Content-Type, Accept");
         next();
 } )
